@@ -1,1 +1,25 @@
-/* You can add global styles to this file, and also import other style files */
+
+* {
+    font-family: 'Roboto', monospace;
+    padding: 0;
+    margin: 0;
+    font-weight: 500;
+    list-style: none;
+}
+
+:root {
+    --background: #030C1B;
+    --background-light: #081325;
+    --text-light: #586771;
+
+    --correct-letter: green;
+    --wrong-letter: red;
+}
+
+body {
+    background-color: var(--background);
+}
+
+.text {
+    font-size: 4rem;
+}

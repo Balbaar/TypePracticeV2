@@ -1,0 +1,11 @@
+<div class="game">
+    <input #typeField type="text" 
+    (input)="keyClicked(typeField)" 
+    (blur)="changeInputState(false)"
+    (focus)="changeInputState(true)"
+    >
+    
+    <div class="text not-typing">
+    
+    </div>
+</div>
